@@ -1,2 +1,2 @@
 # Telethon-examples
-Semplici esempi con la libreria Telethon
+Esempi con la libreria Telethon
