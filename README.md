@@ -13,11 +13,29 @@ Prerequisiti
 
 - Cryptg -> pip3 install -U --user telethon cryptg
 
+- sqlite3 per asyncio aiosqlite -> pip install aiosqlite
 
 ----------------------------------------------------------------------------------------------------
 cryptg   -> https://github.com/cher-nov/cryptg
 
 telethon -> https://github.com/LonamiWebs/Telethon
+
+
+IMPORTANTE
+--------------------------------------------------
+Compilare i campi all'interno dello script di esempio. I campi sono personali e quindi non forniti qui.
+
+channel = "https://t.me/"  -> link del canale  
+
+phone    = ""              -> vostro numero di telefono
+
+api_id   = ""              -> api_id vedi sotto-> 
+
+api_hash = ""              -> api_hash vedi sotto
+
+upday    = "2021-06-06"    -> indica la data di upload del file. Scegliete un giorno disponibile secondo il formato "YYYY-MM-DD"
+
+percorso = "/home/"        -> un percorso dove scaricare i file e con diritti di scrittura
 
 
 ----------------------------------------------------------------------------------------------------
