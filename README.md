@@ -17,6 +17,7 @@ y21@debian:~$ sudo apt install python3-pip
 Verifica installazione di Pip
 ----------------------------------------------------------------------------------------------------
 y21@debian:~$ pip3 --version
+
 pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 
 Installare la libreria Telethon
@@ -56,4 +57,9 @@ Cliccare su API development tools
 Completare i campi richiesti
 
 Prendere nota dei valori di "App api_id:" e "App api_hash"
+
+----------------------------------------------------------------------------------------------------
+
+cryptg   -> https://github.com/cher-nov/cryptg
+telethon -> https://github.com/LonamiWebs/Telethon
 
