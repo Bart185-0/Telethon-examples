@@ -8,6 +8,7 @@ Installazione pulita su vps remota o in locale con vmware o direttamente su macc
 Verifica python3
 ----------------------------------------------------------------------------------------------------
 y21@debian:~$ python3 -V
+
 Python 3.7.3
 
 Installare il gestore di pacchetti Pip se non presente
@@ -27,6 +28,7 @@ y21@debian:~$ pip3 install -U telethon
 Verifica installazione Telethon
 ----------------------------------------------------------------------------------------------------
 y21@debian:~$ python3 -c "import telethon; print(telethon.__version__)"
+
 1.21.1
 
 Installare cryptg
@@ -61,5 +63,6 @@ Prendere nota dei valori di "App api_id:" e "App api_hash"
 ----------------------------------------------------------------------------------------------------
 
 cryptg   -> https://github.com/cher-nov/cryptg
+
 telethon -> https://github.com/LonamiWebs/Telethon
 
