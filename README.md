@@ -1,47 +1,24 @@
 # Telethon-examples
 
-INSTALL
--------------------------
-Debian 10 64-bit
-Installazione pulita su vps remota o in locale con vmware o direttamente su macchina fisica.
+Prerequisiti
+--------------------------------------------------
 
-Verifica python3
+- Debian 10 64-bit o derivati
+
+- Python 3.7.3
+
+- Gestore di pacchetti pip3  - > sudo apt install python3-pip
+
+- Telethon library -> pip3 install -U telethon  (testato su v1.19.2 e v1.21.1)
+
+- Cryptg -> pip3 install -U --user telethon cryptg
+
+
 ----------------------------------------------------------------------------------------------------
-y21@debian:~$ python3 -V
+cryptg   -> https://github.com/cher-nov/cryptg
 
-Python 3.7.3
+telethon -> https://github.com/LonamiWebs/Telethon
 
-Installare il gestore di pacchetti Pip se non presente
-----------------------------------------------------------------------------------------------------
-y21@debian:~$ sudo apt install python3-pip
-
-Verifica installazione di Pip
-----------------------------------------------------------------------------------------------------
-y21@debian:~$ pip3 --version
-
-pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
-
-Installare la libreria Telethon
-----------------------------------------------------------------------------------------------------
-y21@debian:~$ pip3 install -U telethon
-
-Verifica installazione Telethon
-----------------------------------------------------------------------------------------------------
-y21@debian:~$ python3 -c "import telethon; print(telethon.__version__)"
-
-1.21.1
-
-Installare cryptg
-----------------------------------------------------------------------------------------------------
-y21@debian:~$ pip3 install -U --user telethon cryptg
-
-Verifica installazione Cryptg
-----------------------------------------------------------------------------------------------------
-y21@debian:~$ pip3 show cryptg
-
-Name: cryptg
-
-Version: 0.2.post4
 
 ----------------------------------------------------------------------------------------------------
 Ottenere i valori di api_id e api_hash da telegram
@@ -61,8 +38,4 @@ Completare i campi richiesti
 Prendere nota dei valori di "App api_id:" e "App api_hash"
 
 ----------------------------------------------------------------------------------------------------
-
-cryptg   -> https://github.com/cher-nov/cryptg
-
-telethon -> https://github.com/LonamiWebs/Telethon
 
