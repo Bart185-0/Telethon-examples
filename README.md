@@ -1,5 +1,4 @@
 # Telethon-examples
-Telethon examples
 
 INSTALL
 -------------------------
